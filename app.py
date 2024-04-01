@@ -32,7 +32,7 @@ class TimeCalculator(QWidget):
         layout.addWidget(self.resultLabel)
 
         self.setLayout(layout)
-        self.setWindowTitle("Time Calculator")
+        self.setWindowTitle("Seconds To Date")
 
     def calculateSeconds(self):
         input_text = self.inputField.text()
